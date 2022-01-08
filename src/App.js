@@ -7,9 +7,9 @@ import Productos from "./components/Productos.js";
 class App extends Component {
   state = {
     productos: [
-      { name: "Ram", price: 45000, img: "./productos/ram.jpg" },
-      { name: "Disco Duro", price: 50000, img: "./productos/disco.jpg" },
-      { name: "SSD", price: 65000, img: "./productos/ssd.jpg" },
+      { name: "Ram", price: 45000, img: "https://jimmycamus.github.io/REACT-shopping-cart/productos/ram.jpg" },
+      { name: "Disco Duro", price: 50000, img: "https://jimmycamus.github.io/REACT-shopping-cart/productos/disco.jpg" },
+      { name: "SSD", price: 65000, img: "https://jimmycamus.github.io/REACT-shopping-cart/productos/ssd.jpg" },
     ],
     carro: [],
     esCarroVisible: false
